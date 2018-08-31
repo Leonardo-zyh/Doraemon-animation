@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;font-size: 16px;}
+
+html{
+  background:url(./img/粉红背景哆啦A梦.jpeg);
+  background-position: center,center;
+  background-size: cover;
+}
+body{
+  background: rgba(0,0,0,0.6) ;
+}
+  .wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .codewrapper{
+    width: 50%;
+    height: 100%;
+    padding: 64px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+  }
+  .codewrapper  #code{
+    background-color: white;
+    height: 100%;
+    padding-left: 16px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5) ;
+    overflow:hidden;
+    border-radius: 10px;
+  }
+  #outer-line {
+    transform:scale(0.6,0.6);
+
+  }
+  .actions{
+    position: fixed;
+    top: 0;
+    right: 0  ;
+  }
