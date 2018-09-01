@@ -1,15 +1,21 @@
-*{margin: 0;padding: 0;font-size: 16px;}
+  *{margin: 0;padding: 0;font-size: 16px;}
 
-html{
-  background:url(./img/粉红背景哆啦A梦.jpeg);
-  background-position: center,center;
-  background-size: cover;
-}
-body{
-  background: rgba(0,0,0,0.6) ;
-}
+  body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background:url(./img/粉红背景哆啦A梦.jpeg);
+    background-position: center,center;
+    background-size: cover;
+    overflow: hidden; 
+  }
+  .background{
+    background: rgba(0,0,0,0.6) ;
+    height: 100%;
+    width: 100%;
+  }
   .wrapper{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +24,7 @@ body{
     width: 50%;
     height: 100%;
     padding: 64px;
-    overflow: hidden;
+    
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -38,5 +44,5 @@ body{
   .actions{
     position: fixed;
     top: 0;
-    right: 0  ;
+    right: 0 ;
   }
