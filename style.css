@@ -3,7 +3,7 @@
   body{
     min-height: 100vh;
     min-width: 100vh;
-    background:url(./img/粉红背景哆啦A梦.jpeg);
+    background-image:url(./img/粉红背景哆啦A梦.jpeg);
     background-position: center,center;
     background-size: cover;
     overflow: hidden; 
